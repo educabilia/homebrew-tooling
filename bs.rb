@@ -2,8 +2,8 @@ require "formula"
 
 class Bs < Formula
   homepage "https://github.com/educabilia/bs#readme"
-  url "https://github.com/educabilia/bs/archive/v0.2.0.tar.gz"
-  sha1 "75bff9691d833e4988240e73088e30f9b8974d1b"
+  url "https://github.com/educabilia/bs/archive/v0.2.1.tar.gz"
+  sha1 "4fbc7b28abc6b8da473fd122909a954e99ae1d88"
 
   def install
     bin.install "bin/bs" => "bs"
